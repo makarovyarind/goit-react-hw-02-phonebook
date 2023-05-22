@@ -6,7 +6,7 @@ export function ContactList({ contacts, onClick }) {
     <ul className={css.list}>
       {contacts.map(({ id, name, number }) => (
         <li className={css.item} key={id}>
-          <p className={css.contact}>
+          <p className={css.contact}> 
             {name}: {number}
           </p>
           <button 
